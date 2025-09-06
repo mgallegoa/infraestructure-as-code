@@ -29,6 +29,6 @@ resource "aws_instance" "basic_example" {
 
   tags = {
     env  = terraform.workspace
-    name = format("EC2-%s-%s", terraform.workspace, count.index)
+    Name = format("EC2-%s-%s", terraform.workspace, count.index)
   }
 }

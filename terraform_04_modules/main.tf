@@ -29,7 +29,7 @@ resource "aws_instance" "basic_example" {
 
   tags = {
     ExtraTag = local.instanse_tag
-    name     = "EC2_${each.key}"
+    Name     = "EC2_${each.key}"
   }
 }
 
