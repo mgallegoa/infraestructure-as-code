@@ -201,3 +201,11 @@ terraform state pull
                                       |___ outputs.tf
                                       |___ provider.tf
                                       |___ variables.tf
+
+## Diagram
+
+![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/tree/main/terraform_05_folder_structures/05_folder_structures_aws_createVPCandEC2Instance.jpg "Infrastructure diagram")
+
+## Support by me a coffee:
+
+[Go to by me a coffee](https://buymeacoffee.com/manuelarias)

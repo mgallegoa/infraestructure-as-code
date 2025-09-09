@@ -11,3 +11,11 @@ terraform apply -auto-approve
 5. Create a file with a name different to terraform, for example otherVariables.tfvars load using -var-file=./otherVariables.tfvars
 6. With .auto.tfvars or .auto.tfvars.json is loaded by default, for example otherVariables.auto.tfvars
 7. Load variables using flags -var and -var-file, example terraform apply -var myvariable=hellow
+
+## Diagram
+
+![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/tree/main/terraform_02_variables_output/02_variables_output_aws_createEC2Instance.jpg "Infrastructure diagram")
+
+## Support by me a coffee:
+
+[Go to by me a coffee](https://buymeacoffee.com/manuelarias)
