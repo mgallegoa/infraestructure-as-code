@@ -24,7 +24,7 @@ Install Terraform from the official web page and start using the command: terraf
 
 ## Diagram for folder structure
 
-![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/tree/main/terraform_05_folder_structures/05_folder_structures_aws_createVPCandEC2Instance.jpg "Infrastructure diagram")
+![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/blob/main/terraform_05_folder_structures/05_folder_structures_aws_createVPCandEC2Instance.jpg?raw=true "Infrastructure diagram")
 
 ## Support by me a coffee:
 
