@@ -16,6 +16,6 @@ terraform apply -auto-approve
 
 ![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/blob/main/terraform_02_variables_output/02_variables_output_aws_createEC2Instance.jpg?raw=true "Infrastructure diagram")
 
-## Support by me a coffee:
+## Support, buy me a coffee:
 
-[Go to by me a coffee](https://buymeacoffee.com/manuelarias)
+[Go to buy me a coffee](https://buymeacoffee.com/manuelarias)

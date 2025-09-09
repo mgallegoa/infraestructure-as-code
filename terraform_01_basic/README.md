@@ -9,6 +9,6 @@
 
 ![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/blob/main/terraform_01_basic/01_basic_aws_createEC2Instance.jpg?raw=true "Infrastructure diagram")
 
-## Support by me a coffee:
+## Support, buy me a coffee:
 
-[Go to by me a coffee](https://buymeacoffee.com/manuelarias)
+[Go to buy me a coffee](https://buymeacoffee.com/manuelarias)

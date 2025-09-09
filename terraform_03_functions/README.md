@@ -70,6 +70,6 @@ ec2_instances_name = ["ec2_service_1", "ec2_service_2", "ec2_service_3"]
 
 ![Diagram for the infrastructure](https://github.com/mgallegoa/infraestructure-as-code/blob/main/terraform_03_functions/03_functions_aws_createEC2Instance.jpg?raw=true "Infrastructure diagram")
 
-## Support by me a coffee:
+## Support, buy me a coffee:
 
-[Go to by me a coffee](https://buymeacoffee.com/manuelarias)
+[Go to buy me a coffee](https://buymeacoffee.com/manuelarias)
