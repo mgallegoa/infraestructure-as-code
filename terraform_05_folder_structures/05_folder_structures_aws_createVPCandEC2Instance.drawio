@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Página-1" id="_CqutgoL5RMSF9ho79T_">
+    <mxGraphModel dx="872" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="229" y="337.5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;i&gt;Amazon Web Services&lt;/i&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="60" width="308" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-7" value="&lt;div&gt;The state of the infrastructure is saved in a S3 bucket in the folder structure.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;outpust.tf&lt;div&gt;variables.tf&lt;/div&gt;&lt;div&gt;main.tf: ec2 and tags&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Using for_each to iterate over the array of list for ec2 names variable.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Using modules to create the VPC and Security Groups&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Folder structure:&lt;/div&gt;&lt;div&gt;projectName -&amp;gt; dev - &amp;gt; network/ec2/s3&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="720" y="170" width="140" height="255.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="330" y="310.5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="327" y="410.5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-10" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.vpc_virtual_private_cloud;" parent="1" vertex="1">
+          <mxGeometry x="422" y="37.72" width="97" height="62.28" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-11" value="VPC" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="103.5" width="520" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-14" value="Subnet" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="200" width="220" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-15" value="Subnet" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="200" width="220" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-16" value="name = &quot;VPC-Terraform&quot;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="254" y="100" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-17" value="cidr = &quot;10.0.0.0/16&quot;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-18" value="10.0.101.0/24" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-19" value="10.0.102.0/24" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="530" y="170" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.customer_gateway;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="Ya6VVd3w3RKE_6rQh7HO-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492.04761904761904" y="200" as="sourcePoint" />
+            <mxPoint x="483.420168067227" y="103.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="473" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="Ya6VVd3w3RKE_6rQh7HO-14" target="Ya6VVd3w3RKE_6rQh7HO-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
+          <mxGeometry x="294.06" y="250" width="32.94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-24" value="name = &quot;SG-Terraform_https-rules&quot;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="220" y="220" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.12;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="Ya6VVd3w3RKE_6rQh7HO-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="430" as="sourcePoint" />
+            <mxPoint x="310.8641772151898" y="289" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="303" y="348" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.682;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Ya6VVd3w3RKE_6rQh7HO-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="349" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya6VVd3w3RKE_6rQh7HO-28" value="in/out_rules =[&quot;https-443-tcp&quot;]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
