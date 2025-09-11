@@ -10,6 +10,16 @@ aws s3api create-bucket \
  --bucket my-terraform-states-bucket \
  --region us-east-1
 
+## Usage
+
+To run this example you need to execute:
+
+$ terraform init
+$ terraform plan
+$ terraform apply
+
+> [!NOTE] This may create resources which cost money. Run terraform destroy when you don't need these resources.
+
 There are different ways to structure the codes, the most know are:
 
 ## 1. Workspaces (01_workspaces) - Drift problem (differences):
